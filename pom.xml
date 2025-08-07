@@ -28,16 +28,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.microsoft.ews-java-api</groupId>
-    <artifactId>ews-java-api</artifactId>
-    
-    <version>2.1-SNAPSHOT</version>
+    <groupId>com.github.sravale</groupId>
+    <artifactId>jakarta-ews-java-api</artifactId>
+    <version>1.0.0</version>
 
-    <name>Exchange Web Services Java API</name>
-    <description>Exchange Web Services (EWS) Java API</description>
+    <name>Jakarta Exchange Web Services Java API</name>
+    <description>Fork of ews-java-api migrated to Jakarta namespace</description>
 
     <!-- Required by the site command for certain relative URL configuration. -->
-    <url>http://www.microsoft.com/</url>
+    <url>https://github.com/sravale/jakarta-ews-java-api</url>
 
     <!-- Used by the javadoc plugin to generate the comments at the bottom. -->
     <inceptionYear>2012</inceptionYear>
@@ -55,22 +54,19 @@
 
     <developers>
         <developer>
-            <id>vboctor</id>
-            <name>Victor Boctor</name>
-            <email>vboctor@users.noreply.github.com</email>
-            <url>http://www.github.com/officedev/ews-java-api</url>
-            <organization>Microsoft</organization>
-            <organizationUrl>http://www.microsoft.com</organizationUrl>
-            <roles>
-                <role>administrator</role>
-                <role>developer</role>
-            </roles>
-            <timezone>America/New_York</timezone>
-            <properties>
-                 <picUrl>http://www.example.com/jdoe/pic</picUrl>
-            </properties>
+            <id>sravale</id>
+            <name>Sravale</name>
+            <organization>GitHub</organization>
+            <organizationUrl>https://github.com/sravale</organizationUrl>
         </developer>
     </developers>
+
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 
     <properties>
         <!-- Eliminates the file encoding warning. Of course, all of your files
